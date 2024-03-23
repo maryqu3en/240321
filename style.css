@@ -55,3 +55,48 @@ main {
   transform: translateY(-10px);
 }
 
+/* .book-name:hover + .description {
+    display: block;
+  }
+  
+  .description {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    white-space: nowrap;
+    transition: all 0.3s ease;
+  }
+   */
+
+@media only screen and (max-width: 800px) {
+  main {
+    width: 80%;
+    height: 90%;
+  }
+    #right {
+        padding: 10px;
+    }
+    #ES-img {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 95%;
+    height: 90%;
+    flex-direction: column;
+  }
+  #right {
+    padding: 10px;
+  }
+  #ES-img {
+    width: 75%;
+    margin: auto;
+  }
+  .book-name {
+    font-size: 14px;
+  }
+}
